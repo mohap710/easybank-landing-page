@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+:root {
+  --DarkBlue: hsl(233, 26%, 24%);
+  --LimeGreen: hsl(136, 65%, 51%);
+  --BrightCyan: hsl(192, 70%, 51%);
+  --GrayishBlue: hsl(233, 8%, 62%);
+  --LightGrayishBlue: hsl(220, 16%, 96%);
+  --VeryLightGray: hsl(0, 0%, 98%);
+  --White: hsl(0, 0%, 100%);
+  --gradient: linear-gradient(to right, var(--LimeGreen), var(--BrightCyan));
+}
+*,
+*::before,
+*::after {
+  font-family: "Public Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+body {
+  font-size: 18px;
+  background-color: var(--VeryLightGray);
+}
+img,
+svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+ul,
+li {
+  list-style: none;
+}
+
+main {
+  padding-inline: min(10rem, 10vw);
+}
+section {
+  padding-block: 5rem;
+}
+a {
+  text-decoration: none;
+  color: unset;
+}
+.btn-primary {
+  color: var(--White);
+  font-weight: 700;
+  padding: 0.625rem 2rem;
+  background-image: var(--gradient);
+  border: none;
+  border-radius: 25px;
+  transition: opacity ease 250ms;
+}
+@media (max-width: 800px) {
+  .btn-primary {
+    padding: 1rem 3rem;
+  }
+}
+.btn-primary:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.attribution {
+  position: static;
+  background-color: #a9a9a94d;
+  padding-block: 0.5rem;
+  font-size: 14px;
+  text-align: center;
+}
+.attribution a {
+  color: #3e52a3;
+  text-decoration: none;
+}
+.transparent {
+  background-color: transparent !important;
+}
