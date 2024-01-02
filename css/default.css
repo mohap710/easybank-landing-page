@@ -40,7 +40,7 @@ main {
   padding-inline: min(10rem, 10vw);
 }
 section {
-  padding-block: 5rem;
+  padding-block: 8rem;
 }
 a {
   text-decoration: none;
