@@ -2,17 +2,17 @@
   position: relative;
   background-image: url("../images/bg-intro-desktop.svg");
   background-repeat: no-repeat;
-  background-size: 65%;
-  background-position: 142% 73%;
+  background-size: 75%;
+  background-position: 160% 70%;
   padding-inline: 10rem;
   margin-inline: -10rem;
 }
 
 .hero-image {
-  max-width: 590px;
+  max-width: 720px;
   position: absolute;
   top: -20%;
-  right: -5%;
+  right: -7%;
 }
 .slogan {
   font-size: calc(2rem + 1.2vw);
@@ -102,9 +102,9 @@ section.about {
   .hero {
     display: flex;
     flex-direction: column-reverse;
-    background-image: url("../images/bg-intro-mobile.svg");
+    background-image: url(../images/bg-intro-mobile.svg);
     background-position: center -75%;
-    background-size: 70%;
+    background-size: 85%;
   }
   .hero-image {
     position: relative;
